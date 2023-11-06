@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HsiehPeiYun</title>
+    <link rel="stylesheet" href="asset/css/other.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+    $(function(){
+        $('#BackTop').click(function(){ 
+            $('html,body').animate({scrollTop:0}, 5);
+        });
+        $(window).scroll(function() {
+            if ( $(this).scrollTop() > 300 ){
+                $('#BackTop').fadeIn(222);
+            } else {
+                $('#BackTop').stop().fadeOut(222);
+            }
+        }).scroll();
+    });
+</script>
+</head>
+<body>
+    <section>
+        <div class="divtitle">
+            <span class="spantitle">CAITLIN</span>
+        </div>
+        <div class="divtitle-in">
+            <a href="https://www.facebook.com/profile.php?id=100003737087374"><img src="asset/image/facebook.png" width="50px" height="50px"></a>
+            <a href="https://www.instagram.com/hsie.hpy/"><img src="asset/image/instagram.png" width="50px" height="50px"></a>
+        </div>
+    </section>
+    <br>
+    <section>
+        <div>
+            <a id="ABOUT_ME"></a>
+            <h2>－ABOUT ME－</h2>
+        </div>
+        <div class="content">
+            <ul>
+                <li class="list-item">
+                    <img src="asset/image/personal.jpg">
+                    <p class="pword">中原大學資管系 謝佩芸</p>
+                </li>
+                <li class="list-item">
+                    <img src="asset/image/dog.jpg">
+                    <p class="pword">一隻法鬥的主人</p>
+                </li>
+                <li class="list-item">
+                    <img src="asset/image/coffee.jpg">
+                    <p class="pword">『每天一定要來一杯』</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+    
+    <section>
+        <div>
+            <a id="EDUCATION"></a>
+            <h2>－EDUCATION－</h2>
+        </div>
+        <div class="content_ed">
+            <div class="image-container">
+                <img src="asset/image/fxsh.png" alt="教育圖片1">
+                <p class="pword">振聲高中 國際貿易科</p>
+                <p class="image-text">就讀國貿科其實是一件不會令人後悔的事情，在高中三年學到了國際貿易運作的規則，
+                    不論是報關、傳單、國際法條等等....都有一定的認知。在高二時學校還開了一門投資理財的課程，讓學生
+                    模擬投資股票實際操作下單過程。在高中時期也考取國貿丙級證照及國貿大會考的合格認證。
+                </p>
+            </div>
+            <div class="image-container">
+                <img src="asset/image/cycu.png" alt="教育圖片2">
+                <p class="pword">中原大學 資訊管理學系</p>
+                <p class="image-text">大學接觸到許多實作課，無倫是此個人網站或是需要組團一起完成期末專案，都是
+                    很不錯的體驗。也提前訓練到團隊合作的技能，尤其是要與不認識的人共同開發前後端，從訂定討論時間
+                    到最後成功完成專案，每一次的經驗都讓我對團隊合作和即時溝通有更進一步的了解。
+                </p>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section>
+        <div>
+            <a id="PROFESSIONAL SKILLS"></a>
+            <h2>－PROFESSIONAL SKILLS－</h2>
+        </div>
+        <div class="progress all">      
+            <h3 class="progress-title">FRONT_END</h3>
+                <div class="progress-bar" style="width:75%">
+                    <div class="progress-value">75%</div>
+                </div>
+            </div>
+            <div class="progress all">
+                <h3 class="progress-title">OFFICE_APPLIA</h3>
+                <div class="progress-bar" style="width:80%">
+                    <div class="progress-value">80%</div>
+                </div>
+            </div>  
+            <div class="progress all">
+                <h3 class="progress-title">FIGMA_UI/UX</h3>
+                <div class="progress-bar" style="width:60%">
+                    <div class="progress-value">60%</div>
+                </div>
+            </div>
+            <div class="progress all">
+                <h3 class="progress-title">SQL</h3>
+                <div class="progress-bar" style="width:75%">
+                    <div class="progress-value">75%</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div>
+            <a id="PERSONAL EXPERIENCE"></a>
+            <h2>－PERSONAL EXPERIENCE－</h2>
+        </div>
+        <div class="timeline">
+            <div class="outside left">
+                <div class="inside">
+                    <div>
+                        <span>
+                            <h3>精進課程➟Aug-Sep 2019</h3>
+                            高中後期參加的課程，內容是訓練商業報表製作。學習的過程很繁瑣，常會感到煩躁，但最後結束課程後發現自己學會使用製圖軟體、各類辦公軟體也用得很上手，是個值得參加的課程。
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="outside right">
+                <div class="inside">
+                    <div>
+                        <span>
+                            <h3>企業概論➟Nov-Dec 2020</h3>
+                            上大學後第一個專案，從最一開始找隊員都有困難到最後專案結束，都有收穫。了解各種行銷方式，親自去聯絡廠商、實地勘察、做社群上的互動等等，還有如何讓組員之間做有效溝通，從一個課程中了解完整過程，讓我在做未來的各種團隊合作都有一個基礎。
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="outside left">
+                <div class="inside">
+                    <div>
+                        <span>
+                            <h3>管理學➟Mar-Jun 2021</h3>
+                            課程是自己選擇幫助的對象，而我們組選擇幫助學校動服社。實際上去參加動保活動、深入了解相關資訊、法律，才了解到原來台灣的動保法都沒有保障，需要靠人們去宣傳與實質作為才會讓牠們有相對平等的對待。
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="outside right">
+                <div class="inside">
+                    <div>
+                        <span>
+                            <h3>中原議題導向敘事力計畫、雙月刊採訪➟Jun-Jul 2021</h3>
+                            當時管理學課程有製作影片，就去投稿且得到佳作，之間還有學校服務中心雙月刊的採訪，整個過程都挺新奇的，沒有想過自己只是完成了課題，也連帶其他活動、競賽都一起參加了，完成這些事情後會突然覺得自己好像成長了一些。
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="outside left">
+                <div class="inside">
+                    <div>
+                        <span>
+                            <h3>多媒體程式設計期中專案➟Oct-Nov 2021</h3>
+                            第一次做完全沒有經驗，過程中感覺有點蝦糊弄，不過組員之間都很包容會相互幫忙，整個專案結束對課程及程式都熟悉的許多，且回顧自己在這一個月做的事，會稍微有成就感。
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="outside right">
+                <div class="inside">
+                    <div>
+                        <span>
+                            <h3>家教工作➟Sep-Now 2021</h3>
+                            以前會認為家教這個工作挺好做，就只是一對一教學生而已，實際碰觸到後每次上完課都在後悔自己接家教，要去回應家長的期待、將學生的成績反映出來，都是不容易的事情。
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="jump">
+        <a href="#ABOUT_ME">ME</a><br>
+        <a href="#EDUCATION">EDU</a><br>
+        <a href="#PROFESSIONAL SKILLS">SKILLS</a><br>
+        <a href="#PERSONAL EXPERIENCE">EXP</a>
+    </div>
+    <button type="button" id="BackTop" class="toTop-arrow"></button>
+    <footer>
+        <div class="foot">
+            <p class="footinside">Copyright © Hsieh Pei Yun Personal Website 2021 CYCU IM</p>
+        </div>
+    </footer>
+</body>
+</html>
